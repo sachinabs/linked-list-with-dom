@@ -3,6 +3,7 @@ const cors = require('cors');
 const app = express();
 const bodyParser = require('body-parser');
 app.use(cors());
+
 const dataObj = [{
     id:100,
     head: null,
@@ -26,7 +27,7 @@ const dataObj = [{
 
 
 app.get('/show-post', (req, res) =>{
-const displayFirstPost = dataObj[2];
+const displayFirstPost = dataObj[0];
 res.send(displayFirstPost);
 })
 
