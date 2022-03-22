@@ -26,7 +26,7 @@ const dataObj = [{
 
 
 app.get('/show-post', (req, res) =>{
-const displayFirstPost = dataObj[0];
+const displayFirstPost = dataObj[2];
 res.send(displayFirstPost);
 })
 
