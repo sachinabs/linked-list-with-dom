@@ -1,15 +1,24 @@
 {
-  "name": "linked-list",
+  "name": "linked-list-with-dom",
   "version": "1.0.0",
   "description": "",
-  "main": "linked-list.js",
-  "scripts": {
-    "start": "node ./app.js"
-  },
-  "author": "",
-  "license": "ISC",
+  "main": "app.js",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.3"
-  }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sachinabs/linked-list-with-dom.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sachinabs/linked-list-with-dom/issues"
+  },
+  "homepage": "https://github.com/sachinabs/linked-list-with-dom#readme"
 }
